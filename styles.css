@@ -1,0 +1,28 @@
+
+
+header.masthead {
+        text-align: center;
+        color: white;
+        background-color: #333; /* Cor de fundo caso a imagem falhe */
+        background-image: url("https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1350&q=80");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+        height: 60vh; /* Define uma altura para vermos o fundo */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      header.masthead .intro-text {
+        font-size: 50px;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      section {
+        padding: 60px 0;
+        min-height: 300px;
+        border-bottom: 1px solid #eee;
+      }
